@@ -1,23 +1,20 @@
 import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <aside className="logo w-100" id="home">
+        <div className="row align-items-center h-100 justify-content-center">
+            <div className="col-lg-9 text-center">
+                <h1 className="text-uppercase text-white h1-title">Eu sou Rodrigo Costa</h1>
+                <span className="d-block text-white sub-title">Front-End Developer</span>
+                <span className="d-block text-white skills mt-2">HTML5, CSS3, JavaScript, Bootstrap e React</span>
+                <button type="button" className="btn mt-5 btn-design page-scroll justify-content-center text-white"><a href="#"></a>saiba mais</button>
+            </div>
+        </div>
+    </aside> 
     </div>
   );
 }

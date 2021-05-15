@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+:root 
+{
+    --pink_colors_for_dark_backgrounds: rgba(246, 85, 120, 0.933);
+    --dark-pink_colors_for_dark_backgrounds: rgba(182, 59, 85, 0.966);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body 
+{
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+aside.logo 
+{
+  height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#home 
+{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842)), url("../src/foto.jpg");
 }
 
-.App-link {
-  color: #61dafb;
+.h1-title, .sub-title
+{
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    letter-spacing: 0.15rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sub-title 
+{
+    font-weight: normal;
+    font-size: 2.8em;
+}
+
+.skills 
+{
+    font-size: 1.2em;
+}
+
+button 
+{
+  width: 20%;    
+}
+
+.btn-design 
+{
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.315);  
+    background-color: var(--pink_colors_for_dark_backgrounds);     
+}
+
+.btn-design:hover 
+{
+    background-color: var(--dark-pink_colors_for_dark_backgrounds);
+}
+
+@media (max-width: 767px)
+{
+    .h1-title 
+    {
+        font-size: 1.8em;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .sub-title 
+    {
+        font-size: 1.5em;
+    }
+
+    .skills 
+    {
+        font-size: 0.9em;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .btn-design 
+    {
+        font-size: 0.9em;
+        width: 40%;
+    }
+
+    body 
+    {
+        overflow-x: hidden;
+    }
 }
