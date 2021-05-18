@@ -2,16 +2,23 @@
 {
     --pink_colors_for_dark_backgrounds: rgba(246, 85, 120, 0.933);
     --dark-pink_colors_for_dark_backgrounds: rgba(182, 59, 85, 0.966);
+    --bg-color: #0d0c0d;
 }
 
 body 
 {
   overflow-x: hidden;
+  background-color: var(--bg-color);
+}
+
+.bg-nav 
+{
+    background-color: #343a40;
 }
 
 aside.logo 
 {
-  height: 100vh;
+  height: 95vh;
 }
 
 #home 
