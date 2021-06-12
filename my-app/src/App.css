@@ -62,13 +62,17 @@ button
     background-color: var(--dark-pink_colors_for_dark_backgrounds);
 }
 
+nav:hover 
+{
+    cursor: pointer;
+}
 @media (max-width: 767px)
 {
     .h1-title 
     {
-        font-size: 1.8em;
+        font-size: 1.6em;
         margin-right: 5%;
-        margin-left: 5%;
+        margin-left: 5%;        
     }
 
     .sub-title 
