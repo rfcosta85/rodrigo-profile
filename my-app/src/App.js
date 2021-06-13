@@ -134,6 +134,120 @@ function App() {
                 </div>
         </div>
       </section>   
+      <section id="resume" className="bg-gray-dark mt-5">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8 text-center">
+              <h3 className="font-alt font-w-600 letter-spacing-2 title-extra-large text-uppercase text-white">Meu curriculum</h3>
+              <p className="mt-3 text-secondary text-extra-large"> <i>A sua história é sempre contínua, e para que ela seja uma bela história a ser contada, precisa primeiramente que ela seja bem plantada.</i> 
+              </p>
+              <hr size="8" className="hr"></hr>
+            </div>
+          </div>
+          <div id="education" className="accordion mt-5 mt-md-4">
+            <div className="item pb-5 pb-md-4">
+              <h3 className="text-secondary">Formações</h3>
+              <hr size="8" className="mb-5 "></hr>
+              <span className="item-label bg-color font-alt letter-spacing-1 rounded text-medium text-white p-2">
+                2019 - 2021
+              </span> 
+
+              <span className="text-white"> - Análise e Desenvolvimento de Sistemas - Universidade Estácio de Sá</span>             
+                         
+            </div>
+            <div className="item pb-5 pb-md-4 mt-3">
+              <span className="item-label bg-color font-alt letter-spacing-1 rounded text-medium text-white p-2">
+                2008 - 2012
+              </span> 
+
+              <span className="text-white"> - Ciências Econômicas - Universidade Federal Fluminense</span>             
+                         
+            </div>
+            <div className="item pb-5 pb-md-4 mt-3">
+              <span className="item-label bg-color font-alt letter-spacing-1 rounded text-medium text-white p-2">
+                2001 - 2001
+              </span> 
+
+              <span className="text-white"> - Técnico Montagem e Manutenção de Microcomputadores - Elbi</span>             
+                         
+            </div>
+            <h3 className="text-secondary">Cursos</h3>
+            <hr size="8" className="mb-5 "></hr>
+            <div className="item pb-5 pb-md-4">
+              <span className="item-label bg-color font-alt letter-spacing-1 rounded text-medium text-white p-2">
+                2021 - 2021
+              </span> 
+
+              <span className="text-white"> - Treinamento SC-900 Microsoft - Ka Solution</span>             
+                         
+            </div>
+            <div className="item pb-5 pb-md-4 mt-3">
+              <span className="item-label bg-color font-alt letter-spacing-1 rounded text-medium text-white p-2">
+                2020 - 2021
+              </span> 
+
+              <span className="text-white"> - JavaScript Funcional e Reativo - Cod3r</span>             
+                         
+            </div>
+            <div className="item pb-5 pb-md-4 mt-3">
+              <span className="item-label bg-color font-alt letter-spacing-1 rounded text-medium text-white p-2">
+                2020 - 2021
+              </span> 
+
+              <span className="text-white"> - Web Moderno (JavaScript - HTML5 - CSS3 - Ajax - jQuery - Gulp - bootstrap - React - VueJs - Angular - Banco de Dados) - Cod3r</span>             
+                         
+            </div>
+            <div className="item pb-5 pb-md-4 mt-3">
+              <span className="item-label bg-color font-alt letter-spacing-1 rounded text-medium text-white p-2">
+                2020 - 2020
+              </span> 
+
+              <span className="text-white"> - Desenvolvimento de Software com Java - Step Computer Academy</span>             
+                         
+            </div>
+            <div className="item pb-5 pb-md-4 mt-3">
+              <span className="item-label bg-color font-alt letter-spacing-1 rounded text-medium text-white p-2">
+                2020 - 2020
+              </span> 
+
+              <span className="text-white"> - Fundamentos de Arquitetura de Sistemas - Digital Innovation One</span>                   
+                         
+            </div>
+            <div className="item pb-5 pb-md-4 mt-3">
+              <span className="item-label bg-color font-alt letter-spacing-1 rounded text-medium text-white p-2">
+                2020 - 2020
+              </span> 
+
+              <span className="text-white"> - Introdução ao Git e ao Github - Digital Innovation One</span>             
+                         
+            </div>
+            <div className="item pb-5 pb-md-4 mt-3">
+              <span className="item-label bg-color font-alt letter-spacing-1 rounded text-medium text-white p-2">
+                2020 - 2020
+              </span> 
+
+              <span className="text-white"> - Cisco Introduction to Cybersecurity - Cisco</span>             
+                         
+            </div>
+            <div className="item pb-5 pb-md-4 mt-3">
+              <span className="item-label bg-color font-alt letter-spacing-1 rounded text-medium text-white p-2">
+                2020 - 2020
+              </span> 
+
+              <span className="text-white"> - MYSQL - Curso em Vídeo</span>             
+                         
+            </div>
+            <div className="item pb-5 pb-md-4 mt-3">
+              <span className="item-label bg-color font-alt letter-spacing-1 rounded text-medium text-white p-2">
+                2019 - 2019
+              </span> 
+
+              <span className="text-white"> - Python - Curso em Vídeo</span>             
+                         
+            </div>
+          </div>
+        </div>
+      </section>
       </aside>      
     </div>
   );

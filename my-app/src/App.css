@@ -91,6 +91,12 @@ a
 {
     text-decoration: none;
 }
+
+.bg-color 
+{
+    background-color: var(--dark-pink_colors_for_dark_backgrounds);
+}
+
 @media (max-width: 767px)
 {
     .h1-title 
