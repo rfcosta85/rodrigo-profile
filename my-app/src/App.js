@@ -248,6 +248,128 @@ function App() {
           </div>
         </div>
       </section>
+      
+        <section id="skills" className="bg-gray-dark-2 mt-5">
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-lg-8 text-center">
+                        <h3 className="font-alt font-w-600 letter-spacing-2 title-extra-large text-uppercase text-white">Skills & Expertise</h3>
+                        <p className="mt-3 text-secondary text-extra-large"><i>Um vencedor é aquele que sabe reconhecer seus defeitos e qualidades, tentando corrigir seus defeitos e usandos as suas qualidades para gerar valor.</i></p>
+                        <hr className="hr" size="8"></hr>
+                    </div>
+                    
+                </div>
+                
+                
+                <div className="row justify-content-center mt-5 pt-lg-5">
+                    <div className="col-sm-6 col-md-4 col-lg-2 text-center py-3 py-lg-0">
+                        <div className="chart-circle">
+                            <div className="chart">
+                                <span className="item-progress" data-percent="80"></span>
+                            </div>
+                            
+                            
+                            <span className="percent bg-color p-2 box-shadow-wide font-alt font-w-600 rounded text-small text-white">80%</span>
+                        </div>
+                       
+                        
+                        <span className="d-block font-alt letter-spacing-1 mt-3 text-extra-large text-uppercase text-white">HTML5 + CSS3</span>
+                    </div>
+                    
+                    
+                    <div className="col-sm-6 col-md-4 col-lg-2 text-center py-3 py-lg-0">
+                        <div className="chart-circle">
+                            <div className="chart">
+                                <span className="item-progress" data-percent="70"></span>
+                            </div>
+                           
+                            
+                            <span className="percent bg-color p-2 box-shadow-wide font-alt font-w-600 rounded text-small text-white">70%</span>
+                        </div>
+                        
+                        
+                        <span className="d-block font-alt letter-spacing-1 mt-3 text-extra-large text-uppercase text-white">Bootstrap</span>
+                    </div>
+                    
+                    
+                    <div className="col-sm-6 col-md-4 col-lg-2 text-center py-3 py-lg-0">
+                        <div className="chart-circle">
+                            <div className="chart">
+                                <span className="item-progress" data-percent="60"></span>
+                            </div>
+                           
+                            
+                            <span className="percent bg-color p-2 box-shadow-wide font-alt font-w-600 rounded text-small text-white">60%</span>
+                        </div>
+                        
+                        
+                        <span className="d-block font-alt letter-spacing-1 mt-3 text-extra-large text-uppercase text-white">JavaScript</span>
+                    </div>
+                    
+                    
+                    <div className="col-sm-6 col-md-4 col-lg-2 text-center py-3 py-lg-0">
+                        <div className="chart-circle">
+                            <div className="chart">
+                                <span className="item-progress" data-percent="40"></span>
+                            </div>
+                           
+                            
+                            <span className="percent bg-color p-2 box-shadow-wide font-alt font-w-600 rounded text-small text-white">40%</span>
+                        </div>
+                        
+                        
+                        <span className="d-block font-alt letter-spacing-1 mt-3 text-extra-large text-uppercase text-white">React</span>
+                    </div>
+                    
+                    
+                    <div className="col-sm-6 col-md-4 col-lg-2 text-center py-3 py-lg-0">
+                        <div className="chart-circle">
+                            <div className="chart">
+                                <span className="item-progress" data-percent="30"></span>
+                            </div>
+                            
+                            
+                            <span className="percent bg-color p-2 box-shadow-wide font-alt font-w-600 rounded text-small text-white">30%</span>
+                        </div>
+                       
+                        
+                        <span className="d-block font-alt letter-spacing-1 mt-3 text-extra-large text-uppercase text-white">Java</span>
+                    </div>
+                    
+                    
+                    <div className="col-sm-6 col-md-4 col-lg-2 text-center py-3 py-lg-0">
+                        <div className="chart-circle">
+                            <div className="chart">
+                                <span className="item-progress" data-percent="20"></span>
+                            </div>
+                            
+                            
+                            <span className="percent bg-color p-2 box-shadow-wide font-alt font-w-600 rounded text-small text-white">20%</span>
+                        </div>
+                        
+                        
+                        <span className="d-block font-alt letter-spacing-1 mt-3 text-extra-large text-uppercase text-white">Python</span>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </section>
+
+        <footer class="bg-gray-dark mt-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col text-center">                      
+                        <p class="m-0 mt-4 text-secondary text-medium mb-3">&copy; 2021 Desenvolvido por Rodrigo Costa.</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+           
+        </footer>
+       
       </aside>      
     </div>
   );
