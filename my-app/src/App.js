@@ -10,7 +10,7 @@ function App() {
                 <h1 className="text-uppercase text-white h1-title">Eu sou Rodrigo Costa</h1>
                 <span className="d-block text-white sub-title">Front-End Developer</span>
                 <span className="d-block text-white skills mt-2">HTML5, CSS3, JavaScript, Bootstrap e React</span>
-                <button type="button" className="btn mt-5 btn-design page-scroll justify-content-center text-white"><a href="https://www.google.com.br/"></a>saiba mais</button>
+                <button type="button" className="btn mt-5 btn-design page-scroll justify-content-center text-white"><a href="#education" className="text-white">saiba mais</a></button>
             </div>            
         </div>
         <nav id="navigation" className="navbar navbar-dark navbar-expand bg-dark">
@@ -23,7 +23,7 @@ function App() {
                       <a href="#profile" className="nav-link page-scroll">Profile</a>
                     </li>
                     <li className="nav-item">
-                      <a href="Contact" className="nav-link page-scroll">Contact</a>
+                      <a href="#skills" className="nav-link page-scroll">Skills</a>
                     </li>
                 </ul>
             </div>
@@ -51,7 +51,7 @@ function App() {
                     </ul>
                   </div>
                 </div>
-              </div>
+              </div>              
             </div>
           </div>          
         </div>
@@ -354,6 +354,8 @@ function App() {
                 </div>
                 
             </div>
+
+            <p className="mt-5"><a className="text-secondary topo" href="#home">Voltar ao topo</a></p>
             
         </section>
 
